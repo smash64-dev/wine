@@ -1,0 +1,9 @@
+MODULE    = libhidapi-0.dll
+UNIXLIB   = libhidapi.so
+IMPORTLIB = hidapi
+
+C_SRCS = \
+	proxyhidapi.c \
+	unixlib.c
+
+RC_SRCS = version.rc

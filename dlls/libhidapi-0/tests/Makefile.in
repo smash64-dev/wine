@@ -1,0 +1,5 @@
+TESTDLL   = hidapi.dll
+IMPORTS   = hidapi
+
+C_SRCS = \
+	hidapi.c
